@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01DD747629ED80A0000A837C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01DD747529ED80A0000A837C /* Assets.xcassets */; };
+		01DD747A29ED80A0000A837C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01DD747929ED80A0000A837C /* Preview Assets.xcassets */; };
+		DD84035F29F274200053C3A3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD84035E29F274200053C3A3 /* GoogleService-Info.plist */; };
+		DD84037429F27E910053C3A3 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD84037229F27E910053C3A3 /* App.swift */; };
+		DD84039529F2A7E20053C3A3 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD84039429F2A7E20053C3A3 /* Environment.swift */; };
+		DD84039729F2AAE10053C3A3 /* EnvironmentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD84039629F2AAE10053C3A3 /* EnvironmentModel.swift */; };
+		DD84039929F2AF190053C3A3 /* EnvironmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD84039829F2AF190053C3A3 /* EnvironmentView.swift */; };
+		DD84039B29F2BF960053C3A3 /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD84039A29F2BF960053C3A3 /* ControlView.swift */; };
+		DD84039D29F2CA6C0053C3A3 /* OverrideModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD84039C29F2CA6C0053C3A3 /* OverrideModel.swift */; };
+		DD8403A229F2DB640053C3A3 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8403A129F2DB640053C3A3 /* ImageView.swift */; };
+		DD9DC56129F3286B003EDEEF /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = DD9DC56029F3286B003EDEEF /* FirebaseAnalytics */; };
+		DD9DC56329F3286B003EDEEF /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DD9DC56229F3286B003EDEEF /* FirebaseAnalyticsSwift */; };
+		DD9DC56529F3286B003EDEEF /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = DD9DC56429F3286B003EDEEF /* FirebaseAuth */; };
+		DD9DC56729F3286B003EDEEF /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = DD9DC56629F3286B003EDEEF /* FirebaseDatabase */; };
+		DD9DC56929F3286B003EDEEF /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DD9DC56829F3286B003EDEEF /* FirebaseDatabaseSwift */; };
+		DD9DC56B29F3286B003EDEEF /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = DD9DC56A29F3286B003EDEEF /* FirebaseFirestore */; };
+		DD9DC56D29F3286B003EDEEF /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DD9DC56C29F3286B003EDEEF /* FirebaseFirestoreSwift */; };
+		DD9DC56F29F3286B003EDEEF /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = DD9DC56E29F3286B003EDEEF /* FirebaseStorage */; };
+		DD9DC57229F328A2003EDEEF /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = DD9DC57129F328A2003EDEEF /* SDWebImageSwiftUI */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01DD746E29ED8099000A837C /* green-house-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "green-house-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01DD747529ED80A0000A837C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01DD747729ED80A0000A837C /* green_house_app.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = green_house_app.entitlements; sourceTree = "<group>"; };
+		01DD747929ED80A0000A837C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DD84035E29F274200053C3A3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DD84037229F27E910053C3A3 /* App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		DD84039429F2A7E20053C3A3 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		DD84039629F2AAE10053C3A3 /* EnvironmentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentModel.swift; sourceTree = "<group>"; };
+		DD84039829F2AF190053C3A3 /* EnvironmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentView.swift; sourceTree = "<group>"; };
+		DD84039A29F2BF960053C3A3 /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
+		DD84039C29F2CA6C0053C3A3 /* OverrideModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverrideModel.swift; sourceTree = "<group>"; };
+		DD8403A129F2DB640053C3A3 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01DD746B29ED8099000A837C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD9DC56929F3286B003EDEEF /* FirebaseDatabaseSwift in Frameworks */,
+				DD9DC56329F3286B003EDEEF /* FirebaseAnalyticsSwift in Frameworks */,
+				DD9DC56529F3286B003EDEEF /* FirebaseAuth in Frameworks */,
+				DD9DC57229F328A2003EDEEF /* SDWebImageSwiftUI in Frameworks */,
+				DD9DC56D29F3286B003EDEEF /* FirebaseFirestoreSwift in Frameworks */,
+				DD9DC56729F3286B003EDEEF /* FirebaseDatabase in Frameworks */,
+				DD9DC56F29F3286B003EDEEF /* FirebaseStorage in Frameworks */,
+				DD9DC56129F3286B003EDEEF /* FirebaseAnalytics in Frameworks */,
+				DD9DC56B29F3286B003EDEEF /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01DD746529ED8099000A837C = {
+			isa = PBXGroup;
+			children = (
+				01DD747029ED8099000A837C /* green-house-app */,
+				01DD746F29ED8099000A837C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01DD746F29ED8099000A837C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01DD746E29ED8099000A837C /* green-house-app.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01DD747029ED8099000A837C /* green-house-app */ = {
+			isa = PBXGroup;
+			children = (
+				DD84037229F27E910053C3A3 /* App.swift */,
+				DD84038D29F2A5BF0053C3A3 /* Models */,
+				DD84038F29F2A5BF0053C3A3 /* ViewModels */,
+				DD84038B29F2A5BE0053C3A3 /* Views */,
+				01DD747529ED80A0000A837C /* Assets.xcassets */,
+				DD84035E29F274200053C3A3 /* GoogleService-Info.plist */,
+				01DD747729ED80A0000A837C /* green_house_app.entitlements */,
+				01DD747829ED80A0000A837C /* Preview Content */,
+			);
+			path = "green-house-app";
+			sourceTree = "<group>";
+		};
+		01DD747829ED80A0000A837C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				01DD747929ED80A0000A837C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DD84038B29F2A5BE0053C3A3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DD8403A129F2DB640053C3A3 /* ImageView.swift */,
+				DD84039829F2AF190053C3A3 /* EnvironmentView.swift */,
+				DD84039A29F2BF960053C3A3 /* ControlView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DD84038D29F2A5BF0053C3A3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DD84039429F2A7E20053C3A3 /* Environment.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DD84038F29F2A5BF0053C3A3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				DD84039629F2AAE10053C3A3 /* EnvironmentModel.swift */,
+				DD84039C29F2CA6C0053C3A3 /* OverrideModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01DD746D29ED8099000A837C /* green-house-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01DD747D29ED80A0000A837C /* Build configuration list for PBXNativeTarget "green-house-app" */;
+			buildPhases = (
+				01DD746A29ED8099000A837C /* Sources */,
+				01DD746B29ED8099000A837C /* Frameworks */,
+				01DD746C29ED8099000A837C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "green-house-app";
+			packageProductDependencies = (
+				DD9DC56029F3286B003EDEEF /* FirebaseAnalytics */,
+				DD9DC56229F3286B003EDEEF /* FirebaseAnalyticsSwift */,
+				DD9DC56429F3286B003EDEEF /* FirebaseAuth */,
+				DD9DC56629F3286B003EDEEF /* FirebaseDatabase */,
+				DD9DC56829F3286B003EDEEF /* FirebaseDatabaseSwift */,
+				DD9DC56A29F3286B003EDEEF /* FirebaseFirestore */,
+				DD9DC56C29F3286B003EDEEF /* FirebaseFirestoreSwift */,
+				DD9DC56E29F3286B003EDEEF /* FirebaseStorage */,
+				DD9DC57129F328A2003EDEEF /* SDWebImageSwiftUI */,
+			);
+			productName = "green-house-app";
+			productReference = 01DD746E29ED8099000A837C /* green-house-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01DD746629ED8099000A837C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					01DD746D29ED8099000A837C = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 01DD746929ED8099000A837C /* Build configuration list for PBXProject "green-house-app" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01DD746529ED8099000A837C;
+			packageReferences = (
+				DD9DC55F29F3286B003EDEEF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				DD9DC57029F328A2003EDEEF /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
+			productRefGroup = 01DD746F29ED8099000A837C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01DD746D29ED8099000A837C /* green-house-app */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01DD746C29ED8099000A837C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01DD747A29ED80A0000A837C /* Preview Assets.xcassets in Resources */,
+				01DD747629ED80A0000A837C /* Assets.xcassets in Resources */,
+				DD84035F29F274200053C3A3 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01DD746A29ED8099000A837C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD84039929F2AF190053C3A3 /* EnvironmentView.swift in Sources */,
+				DD84039729F2AAE10053C3A3 /* EnvironmentModel.swift in Sources */,
+				DD84039529F2A7E20053C3A3 /* Environment.swift in Sources */,
+				DD8403A229F2DB640053C3A3 /* ImageView.swift in Sources */,
+				DD84039D29F2CA6C0053C3A3 /* OverrideModel.swift in Sources */,
+				DD84037429F27E910053C3A3 /* App.swift in Sources */,
+				DD84039B29F2BF960053C3A3 /* ControlView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		01DD747B29ED80A0000A837C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		01DD747C29ED80A0000A837C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		01DD747E29ED80A0000A837C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "green-house-app/green_house_app.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"green-house-app/Preview Content\"";
+				DEVELOPMENT_TEAM = A5D2LD29B8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Green House";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jonasjansen.green-house-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01DD747F29ED80A0000A837C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "green-house-app/green_house_app.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"green-house-app/Preview Content\"";
+				DEVELOPMENT_TEAM = A5D2LD29B8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Green House";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jonasjansen.green-house-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01DD746929ED8099000A837C /* Build configuration list for PBXProject "green-house-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01DD747B29ED80A0000A837C /* Debug */,
+				01DD747C29ED80A0000A837C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01DD747D29ED80A0000A837C /* Build configuration list for PBXNativeTarget "green-house-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01DD747E29ED80A0000A837C /* Debug */,
+				01DD747F29ED80A0000A837C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DD9DC55F29F3286B003EDEEF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+		DD9DC57029F328A2003EDEEF /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DD9DC56029F3286B003EDEEF /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD9DC55F29F3286B003EDEEF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		DD9DC56229F3286B003EDEEF /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD9DC55F29F3286B003EDEEF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		DD9DC56429F3286B003EDEEF /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD9DC55F29F3286B003EDEEF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		DD9DC56629F3286B003EDEEF /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD9DC55F29F3286B003EDEEF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		DD9DC56829F3286B003EDEEF /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD9DC55F29F3286B003EDEEF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		DD9DC56A29F3286B003EDEEF /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD9DC55F29F3286B003EDEEF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		DD9DC56C29F3286B003EDEEF /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD9DC55F29F3286B003EDEEF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		DD9DC56E29F3286B003EDEEF /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD9DC55F29F3286B003EDEEF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		DD9DC57129F328A2003EDEEF /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD9DC57029F328A2003EDEEF /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 01DD746629ED8099000A837C /* Project object */;
+}
