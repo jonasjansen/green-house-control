@@ -1,0 +1,26 @@
+version: "3"
+services:
+  deconz:
+    image: deconzcommunity/deconz
+    container_name: deconz
+    restart: always
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - deconz_data:/opt/deCONZ
+    devices:
+      - /dev/ttyACM0
+    environment:
+      - DECONZ_DEVICE=/dev/ttyACM0
+      - DECONZ_WEB_PORT=80
+      - DECONZ_WS_PORT=443
+      - DEBUG_INFO=1
+      - DEBUG_APS=0
+      - DEBUG_ZCL=0
+      - DEBUG_ZDP=0
+      - DEBUG_OTAU=0
+
+volumes:
+  deconz_data:
+    driver: local

@@ -1,0 +1,10 @@
+name="SproutDetectv1 image classifier",
+version="v1",
+image_width=180,
+image_height=180,
+image_min=0,
+image_max=255,
+mean=[127.5],
+std=[127.5],
+num_classes=2,
+author="Jonas Jansen"

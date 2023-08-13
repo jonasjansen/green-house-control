@@ -1,0 +1,57 @@
+# Zigbee switch ID's for controlling power switches.
+ZIGBEE:
+  API_IP: '127.0.0.1'
+  API_KEY: '1234'
+  ID:
+    LIGHT: 0
+    HEATER: 0
+    PUMP: 0
+
+FIREBASE:
+  STORAGE_BUCKET: 'my-bucket.com'
+
+GPIO:
+  DHT:
+    DATA_PIN: 0
+  MOISTURE:
+    DATA_PIN: 0
+  PUMP:
+    MODE_1: 0
+    MODE_2: 0
+    MODE_3: 0
+  PUMP_HUMIDITY:
+    DIRECTION: 0
+    STEP: 0
+  PUMP_WATERING:
+    DIRECTION: 0
+    STEP: 0
+  SERVO:
+    DATA_PIN: 0
+    DUTY_CYCLE_OPEN: 0
+    DUTY_CYCLE_CLOSED: 0
+
+
+CONTROL:
+  TEMPERATURE:
+    MIN: 0
+    MAX: 0
+  HUMIDITY:
+    MIN: 0
+    MAX: 0
+  MOISTURE:
+    THRESHOLD: 0
+  LIGHT:
+    START: 0
+    END:  0
+  PUMP:
+    START: 8
+    END: 21
+  WATERING_TIME:
+    START: "12:00"
+    END: "12:15"
+
+DATA:
+  PATH:
+    LOG: '/path/to/logs'
+    MODEL: '/path/to/model'
+    PICTURE: '/path/to/pictures'
